@@ -1,0 +1,14 @@
+.tictactoe{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: cadetblue;
+    width: 300px;
+    height:300px
+}
+
+.headerTitle{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
