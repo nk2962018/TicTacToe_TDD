@@ -1,5 +1,5 @@
 import '../styles/TicTacToe.css'
-import Tile from './Tile';
+import Board from './Board';
 import Constants from './constants/Constants';
 
 function TicTacToe() {
@@ -7,7 +7,7 @@ function TicTacToe() {
   return (
     <div className='tictactoe' data-testid='parent'>
       <div className='headerTitle' data-testid='headerTitle'>{TITLE}</div>
-      <Tile value='1'/>
+      <Board/>
     </div>
   );
 }
